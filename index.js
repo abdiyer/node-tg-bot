@@ -6,6 +6,8 @@ const token = '5291290036:AAFbeCPZ_j3FkSi8xz-Qx1l9UMDjRCOV_1A'
 
 const bot = new TelegaApi(token,{polling:true})
 
+const checker = ''
+
 const chats ={}
 
 const startGame = async (chatId) =>{
