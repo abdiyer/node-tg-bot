@@ -3,22 +3,22 @@ module.exports = {
         reply_markup: JSON.stringify({
             inline_keyboard:[
                 [
-                    {text:"0", callback_data: "0"}
+                    {text:"bitcoin", callback_data: "0"}
                 ],
                 [
-                    {text:"1", callback_data: "1"},{text:"2", callback_data: "2"},{text:"3", callback_data: "3"}
+                    {text:"etherium", callback_data: "1"}
                 ],
                 [
-                    {text:"4", callback_data: "4"}
+                    {text:"tether", callback_data: "2"}
                 ],
                 [
-                    {text:"5", callback_data: "5"}
+                    {text:"binance coin", callback_data: "3"}
                 ],
                 [
-                    {text:"6", callback_data: "6"}
+                    {text:"cordano", callback_data: "4"}
                 ],
                 [
-                    {text:"7", callback_data: "7"}
+                    {text:"solana", callback_data: "5"}
                 ]
             ]
         })
