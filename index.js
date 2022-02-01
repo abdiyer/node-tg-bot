@@ -5,7 +5,7 @@ import fetch from 'node-fetch';
 
 // const {gameOptions, againOptions} = require('./options.js')
 
-const token = '5291290036:AAFbeCPZ_j3FkSi8xz-Qx1l9UMDjRCOV_1A'
+const token = 'чо там'
 
 const bot = new TelegaApi(token,{polling:true})
 
